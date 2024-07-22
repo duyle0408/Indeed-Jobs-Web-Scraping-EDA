@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/c7f950a0-7608-46cd-bfaf-6faa585c56ba)
+
 # Indeed Job Scraping, EDA & NLP Analysis
 
 ## Executive Summary
@@ -11,11 +13,9 @@ By taking on an end-to-end project, I aim to collect data from the Indeed web pa
 ### 3. Action
 
 #### 3.1: Data Collection
-Using Python libraries such as Requests, Selenium, and BeautifulSoup, I gathered information on Entry Level Data Analyst jobs on [Indeed](https://www.indeed.com/). This includes:
-- Making a request call to the Indeed server.
-- Using Selenium as a web driver.
-- Parsing HTML with BeautifulSoup.
-- Saving results in CSV format.
+We start by initiating the GET method to make the call to the Indeed server to fetch the landing page for search result: "Entry Level Data Analyst".
+Then, use Selenium as a web driver to open the link itself, and BeautifulSoup's "HTML parser" to read all the HTML contents of the landing page.
+![image](https://github.com/user-attachments/assets/32d898c7-50d5-4dcc-a202-7dfc3f005928)
 
 #### 3.2: Data Cleaning
 After saving the files as CSV, I:
