@@ -33,8 +33,6 @@ Performed EDA, visualized metrics with Plotly Express, and answered questions su
 - What are the highest salaries for entry-level data analyst positions?
 - What is the relationship between company rating and salary?
 
-![image](https://github.com/user-attachments/assets/89df7cfd-ae5e-4c1c-967f-378d30ba15c2)
-
 #### 3.4: Text Analytics
 Performed text analytics, including:
 - Tokenization.
