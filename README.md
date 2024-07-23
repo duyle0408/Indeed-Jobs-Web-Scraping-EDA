@@ -151,8 +151,15 @@ We then tell the model how many categories we want, in my case, it was 15. The m
 Showing the best topics most related to a data analyst's responsibilities:
 ![image](https://github.com/user-attachments/assets/6573bdfe-c794-4ae0-8787-899f093d43eb)
 
-![image](https://github.com/user-attachments/assets/8bf0f9c2-41df-4b79-abe6-f968e1954369)
+![image](https://github.com/user-attachments/assets/ba36ef1b-4ef3-4c18-817c-507a55ea6253)
 
+![image](https://github.com/user-attachments/assets/df16ef73-d739-41bd-ab9e-d7d02be044be)
+
+![image](https://github.com/user-attachments/assets/a853f86b-96bc-4f3f-afcc-f893ab2e0ca9)
+> Key Takeaways
+-- Topic #2: "analyst," "analysis," "report," "knowledge," which are core to a data analyst's role. It also mentions "management" and "assist," suggesting a collaborative role in providing insights to management.
+-- Topic #3: This topic also prominently features "analyst" and "analysis." It mentions "team," "report," and "development," which are important aspects of a data analyst's job. The presence of "health" and "care" suggests this might be particularly relevant to data analysts in the healthcare sector.
+-- Lastly, Topic #6 highlight important aspects with words like "analysis," "report," "develop," "tool," "data," "computer," "knowledge," "problem," "solution," and "analyze." These terms encompass many of the key skills and activities of a data analyst, including data analysis, report development, problem-solving, and using computer tools.
 
 ### 4. Result
 As a result of this comprehensive analysis, I identified the key skills and qualifications most sought after for entry-level data analyst positions, including SQL, Excel, and Python. This knowledge can help streamline the recruitment process by focusing on candidates with these core competencies.
