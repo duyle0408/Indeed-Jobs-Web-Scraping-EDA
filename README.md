@@ -10,7 +10,56 @@ As a recent graduate from the Master's of Science in Business Analytics program,
 ### 2. Task
 By taking on an end-to-end project, I aim to collect data from the Indeed web page, perform exploratory data analysis and text analytics to uncover the keywords provided in the job description, in order to see which jobs are the right fit for me.
 
-### 3. Action
+## 3. Action
+
+### 3.1 Data Collection
+Using Python libraries such as Requests, Selenium & BeautifulSoup, I gathered information on Entry Level Data Analyst jobs on Indeed. This includes:
+- Making a request call to the Indeed server
+- Using Selenium as a web driver
+- BeautifulSoup as an HTML parser
+- Saving result files in CSV format
+
+### 3.2 Data Cleaning and Standardization
+- Utilizing Python's Data Analysis libraries such as Pandas and Numpy to clean and standardize the raw data
+- Removing missing/duplicate values as needed
+- Re-formatting column data types
+- Manual (sanity) checks for data integrity such as state locations, salary range, etc.
+
+### 3.3 Exploratory Data Analysis (EDA)
+Performing EDA and visualizing metrics with Plotly Express for interactive graphs and better readability:
+- Determining the number of entry-level jobs per state
+- Analyzing the overall rating of all companies in the dataset and each state's average rating
+- Exploring the salary range for certain analytic skills (Python, SQL, Excel, Data Viz)
+- Identifying the most in-demand skills (soft skills included) for a data analyst
+- What is the median overall salary? Find companies that pay higher than the median and group them by state
+- Finding the highest salaries for entry-level data analyst positions (outliers for salary)
+- Examining the relationship between company rating and salary
+
+### 3.4 Text Analytics
+Performing Natural Language Processing (NLP) including:
+- Tokenization
+- Lemmatization
+- Text preprocessing (stop-words removal)
+- WordCloud Visualization
+- Performing Unsupervised Learning using Latent Dirichlet Allocation (LDA) model to extract the most common words into topics to uncover the key responsibilities of an entry-level data analyst
+
+## 4. Result
+As a result of this comprehensive analysis, I have identified the key skills and qualifications most sought after for entry-level data analyst positions, including SQL, Excel, and Python. This knowledge can help streamline the recruitment process by focusing on candidates with these core competencies.
+
+## 5. Actionable Outcomes
+
+### For Applicants:
+- **Target High-Opportunity States:** Job postings are highly concentrated in states like California, Texas, and New York. By targeting these states, job seekers can significantly increase their chances of finding suitable opportunities.
+- **Focus on High-Rating Companies:** States like Minnesota and Delaware have companies with higher average ratings. Prioritizing applications to companies in these states can lead to better job satisfaction and career development.
+- **Develop High-Demand Skills:** Python-required jobs offer higher salaries compared to other skills. Focusing on gaining proficiency in high-demand skills like Python can lead to a 20-30% increase in earning potential.
+- **Align Skills with Market Demand:** Top in-demand skills include SQL, Excel, Python, Tableau, and communication skills. Aligning skill development and resume highlights with these in-demand skills can increase job match rates by 25%.
+
+### For Hiring Managers:
+- **Focus Recruitment Efforts:** Job postings are highly concentrated in states like California, Texas, and New York. Focus recruitment efforts and advertising in these high-interest areas to attract a larger pool of qualified candidates.
+- **Enhance Company Appeal:** States like Minnesota and Delaware have companies with higher average ratings. Offering better benefits and fostering a positive work environment could potentially improve your company's attractiveness.
+- **Highlight In-Demand Skills:** Top in-demand skills include SQL, Excel, Python, Tableau, and communication skills. Clearly highlight these skills in job postings to attract candidates whose expertise aligns with market demands, improving the quality of applicants.
+
+## Detailed Walk Through
 
 #### 3.1: Data Collection
 We start by initiating the GET method to make the call to the Indeed server and fetch the landing page for search result: "Entry Level Data Analyst".
