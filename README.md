@@ -100,6 +100,7 @@ Let's begin inspecting the raw dataset and standardizing it as much as we can.
 ![image](https://github.com/user-attachments/assets/d4506d8a-658c-437c-a318-57922b203e53)
 
 ![image](https://github.com/user-attachments/assets/14056421-48c7-4475-8598-f2f8b2837c70)
+
 We inspect the dataset, make a copy and work on the copy itself, as good practice. There are about 1005 rows and 100 of those rows where the company name and job title are duplicates so we're dropping them.
 
 For the "company_location" column, we will be extracting the city, state, and zip code using regular expression, and place them in new columns.
